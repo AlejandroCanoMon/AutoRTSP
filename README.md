@@ -16,7 +16,7 @@ This Python script automates the recording of RTSP streams using FFmpeg. You can
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/AlejandroCanoMon/AutoRTSP.git](https://github.com/AlejandroCanoMon/AutoRTSP.git)
+   git clone https://github.com/AlejandroCanoMon/AutoRTSP.git
 
 2. Navigate to the project directory:
    ```bash
