@@ -45,9 +45,9 @@ Run the script from the terminal, specifying the stream URL and the recording du
 
 Example Output
 
-`Recording stream from rtsp://192.168.25.1:8080/stream for 60 seconds...
-Output file: ./grabaciones/stream_20241207_143000.mp4
-Recording completed: ./grabaciones/stream_20241207_143000.mp4`
+      Recording stream from rtsp://192.168.25.1:8080/stream for 60 seconds...
+      Output file: ./grabaciones/stream_20241207_143000.mp4
+      Recording completed: ./grabaciones/stream_20241207_143000.mp4
 
 Customization
 
