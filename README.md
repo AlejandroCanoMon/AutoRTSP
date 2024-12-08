@@ -27,13 +27,17 @@ This Python script automates the recording of RTSP streams using FFmpeg. You can
 
 Run the script from the terminal, specifying the stream URL and the recording duration.
   ```bash
-  python autoStream.py -u <RTSP_URL> -t <DURATION_IN_SECONDS>
+  python autoStream.py -u <RTSP_URL> -m <MODE(1 - STREAM, 2 - RECORD) -t <DURATION_IN_SECONDS>
   ```
 
 ## Example
+  To stream from `rtsp://192.168.25.1:8080/stream`:
+  ```bash
+  python autoStream.py -u rtsp://192.168.25.1:8080/stream -m 1
+  ```
   To record a stream from `rtsp://192.168.25.1:8080/stream` for 60 seconds:
   ```bash
-  python grabar_stream.py -u rtsp://192.168.25.1:8080/stream -t 60
+  python autoStream.py -u rtsp://192.168.25.1:8080/stream -m 2 -t 60
   ```
   The recorded file will be saved in the `./grabaciones` directory with a unique name based on the current date and time.
 
@@ -42,6 +46,7 @@ Run the script from the terminal, specifying the stream URL and the recording du
 
     -u or --url: Specifies the RTSP stream URL.
     -t or --time: Duration of the recording in seconds.
+    -m: mode: 1 - streaming, 2 - record
 
 Example Output
 
